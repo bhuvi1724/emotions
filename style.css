@@ -1,0 +1,15 @@
+span {
+    background-color: rgb(241, 45, 192);
+    font-size: 30px;
+}
+h1 {
+    background-color: darkmagenta;
+}
+body {
+    background-color: darkorchid;
+}
+#webcam {
+    width: 300px;
+    height: 250px;
+    border: darkblue 1px solid;
+}

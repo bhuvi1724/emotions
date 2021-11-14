@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<center>
+    <h1>emotion identfication app</h1>
+    <span>&#128512;</span>
+    <span>&#128545;</span>
+    <span>&#128532;</span>
+    <span>&#128546;</span>
+    <br>
+    <label>take your selfie to generate your emoji</label>
+    <label>are you happy</label>
+    <br>
+    <label>are you sad</label>
+    <br>
+    <label> are you angry</label>
+    <div id='camera'></div>
+    <button onclick="take_snapshot"> capture image</button>
+    <div id=results></div>
+    <button> predit emotion</button>
+    <label> prediction 1</label>
+    <br>
+    <label id=emotion_1></label>
+    <label id="emoji_1"></label>
+    <label> prediction 2</label>
+    <br>
+    <label id=emotion_2></label>
+    <label id="emoji_2"></label>
+</center>
+
+</body>
+
+</html>
